@@ -47,7 +47,7 @@
 #banner {
     width: 100%;
     background-image :url("./images/banner.png");
-    height: 463px;
+    height: auto;
     margin-top: 20px;
     display: flex;
     padding:0px 133px;
@@ -135,6 +135,7 @@
     padding-bottom: 78px;
     padding-left:134px;
     padding-right:134px;
+    height: auto;
 }
 
 #wp-products h2 {
@@ -155,10 +156,28 @@
 
 #list-products .item {
     width: 290px;
-    height: 374px;
+    height: auto;
     background:#f384b2;
     border-radius: 10px;
     margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+#wp-products #list-products button {
+    width: 191px;
+    height: 40px;
+    margin-top:41px;
+    background:#7508f1;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+}
+#wp-products #list-products button:hover {
+    background:orange;
 }
 
 #list-products .item img {
