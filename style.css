@@ -48,14 +48,17 @@
     width: 100%;
     background-image :url("./images/banner.png");
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     padding:0px 133px;
     position:relative;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 #banner .box-left ,#banner .box-right {
-    width: 50%;
+    width: 90%;
 }
 
 #banner  .box-left h2 {
@@ -93,7 +96,7 @@
 }
 
 #banner .box-right img {
-    margin:0px 10px;
+    margin:20px 10px;
     animation :animation 3s infinite linear; 
 }
 
