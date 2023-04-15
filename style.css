@@ -537,7 +537,9 @@
     text-align: center;
     justify-content: center;
     color: #048804;
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    
 }
 .row{
     margin-left: -8px;
